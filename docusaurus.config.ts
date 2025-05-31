@@ -94,15 +94,21 @@ const config: Config = {
         },
         {
           type: "docSidebar",
+          sidebarId: "FFSidebar",
+          position: "left",
+          label: "前端框架",
+        },
+        {
+          type: "docSidebar",
           sidebarId: "SMLSidebar",
           position: "left",
           label: "状态管理库",
         },
         {
           type: "docSidebar",
-          sidebarId: "FFSidebar",
+          sidebarId: "WEBSidebar",
           position: "left",
-          label: "前端框架",
+          label: "浏览器",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
